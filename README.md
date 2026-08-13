@@ -23,6 +23,10 @@ bot commit you can read. 121 of them since June.
 a Proxmox backup fails. One container, SQLite, a read-only API token,
 alerts to email or Discord.
 
+Most of what I build here has an LLM in the loop, this README
+included. I'd rather get good at directing that than pretend
+otherwise.
+
 Active development lives on a self-hosted GitLab. GitHub is the public
 slice of it.
 
