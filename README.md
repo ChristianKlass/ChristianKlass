@@ -3,13 +3,6 @@
 Platform and DevOps engineer in Singapore. Eight years, mostly Linux,
 cloud infrastructure and CI/CD. At work that currently means EKS.
 
-At home I run a Proxmox box with 14 guests and a two-node kubeadm
-cluster. Terraform builds it, Flux keeps it that way, SOPS keeps
-secrets out of git. Frigate does the cameras, detection on a Coral
-EdgeTPU and Plex transcoding on QuickSync. I dropped the 2060 when I
-rebuilt around the Core Ultra 5 245K, mostly to cut the power draw.
-Backups run four tiers deep into Cloudflare R2.
-
 There's two repos here that I'm kinda proud of:
 
 **[kopilog](https://github.com/ChristianKlass/kopilog)** publishes a tech
@@ -22,11 +15,18 @@ bot commit you can read. 121 of them since June.
 a Proxmox backup fails. One container, SQLite, a read-only API token,
 alerts to email or Discord.
 
+At home I run a Proxmox box with 14 guests and a two-node kubeadm
+cluster. Terraform builds it, Flux keeps it that way, SOPS keeps
+secrets out of git.
+
+Frigate does the cameras, detection on a Coral EdgeTPU and Plex
+transcoding on QuickSync. I dropped the 2060 when I rebuilt around the
+Core Ultra 5 245K, mostly to cut the power draw. Backups run four
+tiers deep into Cloudflare R2.
+
 Most of what I build here has an LLM in the loop, this README
 included. I'd rather get good at directing that than pretend
 otherwise.
 
-Active development lives on a self-hosted GitLab. GitHub is the public
-slice of it.
-
-[resume.markklass.dev](https://resume.markklass.dev)
+Active development lives on a self-hosted GitLab; GitHub is the public
+slice of it. Resume at [resume.markklass.dev](https://resume.markklass.dev).
