@@ -9,7 +9,7 @@ goes through Authentik and Cloudflare Tunnels. Frigate handles the
 cameras, running inference on a Coral EdgeTPU instead of a GPU. Backups
 go four tiers deep and end up in Cloudflare R2.
 
-Two repos here worth opening:
+There's two repos here that I'm kinda proud of:
 
 **[kopilog](https://github.com/ChristianKlass/kopilog)** publishes a tech
 news site with nobody at the wheel. RSS in, TF-IDF clustering, LLM
