@@ -4,11 +4,10 @@ Platform and DevOps engineer in Singapore. Eight years, mostly Linux,
 cloud infrastructure and CI/CD. At work that currently means EKS.
 
 At home I run a Proxmox box with 14 guests and a small kubeadm cluster,
-both managed with Terraform and Flux. It's SOPS-encrypted secrets
-everywhere now, but only because an audit before open-sourcing anything
-turned up credentials in old commits — four of them still live, months
-after I'd committed them. Everything got rotated and the secrets
-handling rebuilt from scratch. Frigate handles the cameras, running
+both managed with Terraform and Flux. Before open-sourcing any of it I
+audited the full git history and found credentials in old commits, four
+of them still live. Everything got rotated and the secrets handling
+rebuilt around SOPS. Frigate handles the cameras, running
 inference on a Coral EdgeTPU instead of a GPU. Backups go four tiers
 deep and end up in Cloudflare R2.
 
