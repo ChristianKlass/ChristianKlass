@@ -1,7 +1,8 @@
 # Mark Klass
 
 Platform and DevOps engineer in Singapore. Eight years, mostly Linux,
-cloud infrastructure and CI/CD. At work that currently means EKS.
+cloud infrastructure and CI/CD. At work that currently means AWS,
+mostly EKS and EC2.
 
 There's two repos here that I'm kinda proud of:
 
@@ -20,9 +21,9 @@ cluster. Terraform builds it, Flux keeps it that way, SOPS keeps
 secrets out of git.
 
 Frigate does the cameras, detection on a Coral EdgeTPU and Plex
-transcoding on QuickSync. I dropped the 2060 when I rebuilt around the
-Core Ultra 5 245K, mostly to cut the power draw. Backups run four
-tiers deep into Cloudflare R2.
+transcoding on QuickSync. I rebuilt the box around a Core Ultra 5
+245K, which let me drop the 2060 and cut the power draw. Backups run
+four tiers deep into Cloudflare R2.
 
 Most of what I build here has an LLM in the loop, this README
 included. I'd rather get good at directing that than pretend
