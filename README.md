@@ -3,13 +3,12 @@
 Platform and DevOps engineer in Singapore. Eight years, mostly Linux,
 cloud infrastructure and CI/CD. At work that currently means EKS.
 
-At home I run a Proxmox box with 14 guests and a small kubeadm cluster,
-both managed with Terraform and Flux. Before open-sourcing any of it I
-audited the full git history and found credentials in old commits, four
-of them still live. Everything got rotated and the secrets handling
-rebuilt around SOPS. Frigate handles the cameras, running
-inference on a Coral EdgeTPU instead of a GPU. Backups go four tiers
-deep and end up in Cloudflare R2.
+At home I run a Proxmox box with 14 guests and a two-node kubeadm
+cluster. Terraform builds it, Flux keeps it that way, SOPS keeps
+secrets out of git. Frigate does the cameras, detection on a Coral
+EdgeTPU and Plex transcoding on QuickSync. I dropped the 2060 when I
+rebuilt around the Core Ultra 5 245K, mostly to cut the power draw.
+Backups run four tiers deep into Cloudflare R2.
 
 There's two repos here that I'm kinda proud of:
 
